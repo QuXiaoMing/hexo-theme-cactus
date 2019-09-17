@@ -151,9 +151,10 @@ valine:
   enable: true
   appid: 10pTmVxVzTqI8OkoPFKCsDvx-9Nh9j0Va
   appkey: If1jPmGxr84EsmWbcCU1n50F
-  notify: false # mail notifier , https://github.com/xCss/Valine/wiki
+  notify: true # mail notifier , https://github.com/xCss/Valine/wiki
   verify: false # Verification code
   placeholder: Just go go # comment box placeholder
-  avatar: retro # gravatar style
+  avatar: robohash # gravatar style
   guest_info: nick,mail,link # custom comment header
   pageSize: 10 # pagination size
+  visitor: true

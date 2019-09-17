@@ -7,6 +7,11 @@
       </span>
       <%- partial('_partial/post/date', { post: page, class_name: 'postdate' }) %>
       <!-- 页面访问量 -->
+      <span id="url<%- page.path %>" class="leancloud-visitors" data-flag-title="Your Article Title">
+            |
+            <span class="post-meta-item-text">阅读量 </span>
+            <span class="leancloud-visitors-count">0</span>
+        </span>
       <%- partial('_partial/post/category') %>
       <%- partial('_partial/post/tag') %>
     </div>
