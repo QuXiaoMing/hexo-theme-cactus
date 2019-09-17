@@ -1,11 +1,11 @@
 .coding {
     position: relative;
     margin-top: 0.5em;
-
+    min-height: 90px;
 }
 
 .coding .prompt {
-    display: inline-block;
+    display: inline;
     white-space: pre-wrap;
     line-height: 30px;
     margin-bottom: 0.75em;
@@ -16,7 +16,7 @@
 }
 
 .coding .typed-cursor:after {
-    display: inline-block;
+    display: inline;
     vertical-align: -0.15em;
     width: 0.5em;
     height: 12px;
