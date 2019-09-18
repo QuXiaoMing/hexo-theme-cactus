@@ -143,18 +143,17 @@ baidu_analytics:
 gravatar:
     email: xm726@qq.com
 
-
 # Valine.
 # You can get your appid and appkey from https://leancloud.cn
 # more info please open https://valine.js.org
 valine:
-  enable: true
-  appid: 10pTmVxVzTqI8OkoPFKCsDvx-9Nh9j0Va
-  appkey: If1jPmGxr84EsmWbcCU1n50F
-  notify: true # mail notifier , https://github.com/xCss/Valine/wiki
-  verify: false # Verification code
-  placeholder: Just go go # comment box placeholder
-  avatar: robohash # gravatar style
-  guest_info: nick,mail,link # custom comment header
-  pageSize: 10 # pagination size
-  visitor: true
+    enable: true
+    appid: gCOkdeheUVzc54vgcF73qQ2f-MdYXbMMI
+    appkey: UkoAS1QnpdJgr9DOPHcKMT7m
+    notify: true # mail notifier , https://github.com/xCss/Valine/wiki
+    verify: false # Verification code
+    placeholder: Just go go # comment box placeholder
+    avatar: robohash # gravatar style
+    guest_info: nick,mail,link # custom comment header
+    pageSize: 10 # pagination size
+    visitor: true
